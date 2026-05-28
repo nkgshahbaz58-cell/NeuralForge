@@ -58,9 +58,7 @@ export default defineConfig({
     consoleToParent(),
     loadFontsFromTailwindSource(),
     addRenderIds(),
-    reactRouter({
-      basename: '/NeuralForge',
-    }),
+    reactRouter(),
     tsconfigPaths(),
     aliases(),
     layoutWrapperPlugin(),
